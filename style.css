@@ -1,0 +1,400 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Gilroy';
+}
+header {
+	width: 100%;
+	margin: auto;
+	padding: 40px 0 190px 0;
+}
+.rectangle {
+	width: 100%;
+	height: 768px;
+	position: absolute;
+	top: 0;
+	background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0) 31.12%);
+	opacity: 0.2;
+}
+nav {
+	width: 1200px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	opacity: none;
+}
+.hero {
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 100px;
+}
+.group {
+	width: 550px;
+	margin-top: 105px;
+	position: relative;
+    left: 290px;
+    letter-spacing: 0.00em;
+}
+.new {
+	font-family: 'Galien';
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 74px;
+}
+.lorem {
+	width: 412px;
+    margin: 40px 0 70px 0;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+}
+.button {
+	width: 190px;
+	height: 50px;
+	padding: 15px 0;
+	background-color: #5A98D0;
+	color: #FFFFFF;
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+}
+.ellipse-1 {
+	width: 75px;
+    height: 50px;
+    position: absolute;
+    top: 225px;
+    left: 820px;
+}
+.ellipse-2 img {
+	width: 100%;
+}
+.ellipse-2 {
+	width: 60px;
+    height: 50px;
+    position: absolute;
+    top: 172px;
+    left: 1055px;
+    transform: rotate(-190.69deg);
+}
+.vector {
+	width: 680px;
+    height: 510px;
+    position: absolute;
+    transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+    left: 740px;
+    top: 155px;
+}
+.ellipse-3 {
+	width: 60px;
+	height: 40px;
+	position: absolute;
+    top: 680px;
+    left: 1040px;
+}
+.ellipse-4 {
+	width: 145px;
+	height: 80px;
+	position: absolute;
+    top: 580px;
+    left: 1200px;
+}
+.illustration-bg {
+	width: 650px;
+    height: 490px;
+    position: absolute;
+    transform: matrix(1, 0.03, -0.03, 1, 0, 0);
+    left: 755px;
+    top: 160px;
+}
+.smart-home {
+	width: 260px;
+    height: 180px;
+    position: absolute;
+    left: 1085px;
+    top: 135px;
+}
+.women {
+	width: 180px;
+    height: 210px;
+    position: absolute;
+    left: 1235px;
+    top: 315px;
+}
+.platform {
+	width: 275px;
+	height: 190px;
+	position: absolute;
+    top: 355px;
+    left: 908px;
+    z-index: 1;
+}
+.man {
+	width: 137px;
+	height: 230px;
+	position: absolute;
+    top: 410px;
+    left: 813px;
+}
+.container {
+	width: 940px;
+	margin: auto;
+}
+.section-1 .container {
+	display: flex;
+	justify-content: space-between;
+	margin: 192px auto;
+}
+.title {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 46px;
+	color: #316099;
+}
+.box-left, .box-right {
+	width: 50%;
+}
+.box-left .title {
+	width: 360px;
+}
+.box-left-1 {
+	margin-top: 158px;
+	padding: 48px;
+}
+.box-right-1 {
+	padding: 0 48px 48px 48px;
+}
+.box-left-1, .box-right-1, .box-right-2 {
+	width: 380px;
+	float: right;
+	letter-spacing: 0.05em;
+	border-radius: 10px;
+	box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+}
+.image-left {
+	width: 182px;
+	margin-left: 26px;
+}
+.subtitle-box {
+	width: 257px;
+	font-size: 20px;
+	font-weight: 700;
+	color: #1F3F68;
+	line-height: 30px;
+	margin: 56px 0 16px 0;
+}
+.text {
+	width: 284px;
+	font-size: 16px;
+	line-height: 26px;
+	color: #1F3F68;
+	opacity: 0.6;
+}
+.learn {
+	font-size: 14px;
+	font-weight: 700px;
+	color: #5A98D0;
+	margin-top: 32px;
+}
+.image-right-1 {
+	width: 224px;
+	position: relative;
+    left: 20px;
+    bottom: 20px;
+}
+.box-right-1 .subtitle-box {
+	margin-top: 36px;
+}
+.box-right-2 {
+	padding: 48px;
+	margin-top: 100px;
+}
+.image-right-2 {
+	width: 156px;
+	margin-left: 35px;
+}
+.zagolovok {
+	display: flex;
+	letter-spacing: 0.05em;
+}
+.zagolovok .title {
+	width: 231px;
+	margin-right: 93px;
+}
+.zagolovok .text {
+	width: 540px;
+}
+.mask-group {
+	width: 940px;
+	height: 417px;
+	margin: 108px 0 96px 0;
+	text-align: right;
+	background-image: url(image/Mask.png);
+}
+.mask-title, .mask-subtitle {
+	line-height: 46px;
+	color: #FFFFFF;
+}
+.mask-group .mask-title {
+	padding: 48px 48px 8px 0;
+}
+.mask-title {
+	font-size: 28px;
+}
+.mask-group .mask-subtitle {
+	padding-right: 48px;
+}
+.mask-subtitle {
+	font-size: 16px;
+	opacity: 0.8;
+}
+.card-1, .card-2 {
+	width: 422px;
+	height: 417px;
+}
+.card-1 {
+	background-image: url(image/Mask-Group.png);
+}
+.card .mask-title {
+	padding: 24px 0 4px 32px;
+}
+.card .mask-subtitle {
+	padding-left: 32px;
+}
+.card-2 {
+	background-image: url(image/M-Group.png);
+}
+.mask-flex {
+	display: flex;
+	justify-content: space-between;
+}
+.section-2 .container {
+	margin-bottom: 192px;
+}
+.table-1, .table-2 {
+	display: flex;
+	justify-content: space-between;
+}
+.table-1 {
+	border-bottom: 1px solid #FFFFFF;
+}
+.client {
+	width: 25%;
+	height: 128px;
+	padding-left: 60px;
+	display: flex;
+	align-items: center;
+	border-right: 1px solid #FFFFFF;
+}
+.client-1 {
+	border-right: 0;
+}
+.section-3 {
+	margin: auto;
+	background: #5A98D0;
+	border-radius: 200px 0px 0px 0px;
+	color: #FFFFFF;	
+	padding: 96px 0 125px 0;
+}
+.section-3, footer .text {
+	color: #FFFFFF;
+}
+.section-3, footer .title {
+	color: #FFFFFF;
+}
+.client-card {
+	margin: 120px 0 30px 0;
+}
+.client:hover {
+	background: #1F3F68;
+	opacity: 0.2;
+}
+footer {
+	margin: auto;
+	background: #5A98D0;
+	color: #FFFFFF;
+}
+footer .zagolovok {
+	align-items: center;
+	margin-bottom: 96px;
+}
+footer .text {
+	width: 460px!important;
+	margin-top: 32px;
+}
+li {
+	list-style-type: none;
+}
+.group-2 {
+	margin-right: 180px;
+}
+.line {
+	width: 1073px;
+	border-top: 1px solid #FFFFFF;
+	opacity: 0.4;
+	position: absolute;
+	left: 0;
+}
+.contact li {
+	display: flex;
+	margin-bottom: 16px;
+}
+.active {
+	align-items: center;
+	margin-bottom: 32px!important;
+}
+.type, .active .logo {
+	margin-right: 16px;
+}
+.afrian {
+	font-size: 28px;
+	line-height: 46px;
+	letter-spacing: 0.02em;
+}
+.bottom {
+	display: flex;
+	padding-top: 96px;
+}
+.regular {
+	font-size: 16px;
+	line-height: 26px;
+	margin-bottom: 16px;
+}
+.bold {
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 32px;
+}
+.contact {
+	width: 300px;
+}
+.about {
+	width: 163px;
+	margin: 0 77px 0 100px;
+}
+.copy {
+	font-size: 16px;
+	line-height: 26px;
+	opacity: 0.4;
+	margin-top: 64px;
+}
+footer .container-fluid {
+	width: 1270px;
+	background: #316099;
+	border-radius: 0px 200px 0px 0px;
+	padding: 90px 0 64px 0;
+}
+footer .container {
+	padding-left: 70px;
+}
+@font-face {
+    font-family: 'Galien';
+    src: local('Galien Bold'), local('Galien-Bold'), url('Galien-Bold.otf') format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+.foot-cont {
+	width: 860px;
+	margin: auto;
+}
